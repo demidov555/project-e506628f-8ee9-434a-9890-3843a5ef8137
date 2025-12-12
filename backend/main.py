@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routes import projects, messages, auth, agents
 from dotenv import load_dotenv
 
 load_dotenv()
