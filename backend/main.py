@@ -14,7 +14,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@router.get("/agents/available")
+@app.get("/agents/available")
 def get_available_agents():
     return {
         "list": []
