@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+python-dotenv
+cassandra-driver
+aiohttp
+pytest
+pytest-asyncio
+python-jose[cryptography]
+python-multipart
