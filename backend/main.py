@@ -19,3 +19,11 @@ def get_available_agents():
     return {
         "list": []
     }
+
+@app.get("/")
+def home():
+    return {"message": "Привет с Render!"}
+
+@app.get("/test")
+def test():
+    return {"status": "ok"}
